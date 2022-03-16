@@ -27,7 +27,7 @@ To test your code, run:
 ./_build/default/bin/main_codegen.exe -codegen_types tests/arithmetic/grammar.json > tests/arithmetic/ast_arithmetic_output.re
 ```
 and compare your result in `tests/arithmetic/ast_arithmetic_output.re` with
-the expeced output in `tests/arithmetic/ast_arithmetic.re`.
+the expected output in `tests/arithmetic/ast_arithmetic.re`.
 Your result does not have to match exactly `tests/arithmetic/ast_arithmetic.re`,
 but it should compile, and it should be mostly equivalent to
 `tests/arithmetic/ast_arithmetic.re`.
